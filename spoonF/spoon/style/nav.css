@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.header {
+    overflow: hidden;
+    background-color: #ff801f;
+    padding: 20px 20px;
+    border-radius: 3pt;
+    
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12%;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      text-align: none;
+    }
+    .header-right {
+      float: right;
+    }
+  }
+  
+  #keywords{
+    font-size: 20px;
+    width: 40%;
+    height: 43px;
+    border-radius:60px;
+    border: 1px solid #ff801f;
+    padding:3pt 20px;   
+    margin: 7pt; 
+    margin-left:20%;
+  }
+  
+  .barra{
+    padding-top: auto;
+    padding-bottom: auto;
+    display: block;
+  }
+  
+  .lupa{
+    position: absolute;
+    left: 5.5%;
+    top: 6.5%;
+    display: show;
+  }
+  
+  .logo{
+  
+    width: 100%;
+    max-width: 135px;
+    height: auto;
+    position: absolute;
+    margin-left: -1.5%;
+    margin-top: -1.1%;
+  }
+  
+  .logo2{
+  
+    width: 100%;
+    max-width: 32px;
+    height: auto;
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 0.85%;
+    color:#d8d8d8;
+  }
+  
+  .pname{
+    margin-top: 8px;
+    font-family: 'Roboto';
+    position: absolute;
+    margin-left: 5%;
+    font-size: 35pt;
+    width:  150pt;
+  }

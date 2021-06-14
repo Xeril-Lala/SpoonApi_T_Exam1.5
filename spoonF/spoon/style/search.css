@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    font-family: 'Segoe UI';
+}
+.titleSearch{
+    font-family: 'Roboto';
+    padding-top: 5%;
+    padding-left: 7%;
+    font-size: 34px;
+}
+.contRecipes{
+    padding-left: 7%;
+    width: 60%;
+}
+.contRowRecipe{
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+.imagePreview{
+    float: left;
+    width: 34%;
+    border-radius: .1rem;
+    padding-right: 2%;
+    
+}
+.contText{
+    
+}
+.title{
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+.icontxt {
+    display: flex;
+    padding-top: 12px;
+    padding-right: 3%;
+    padding-bottom: 20px;
+}
+.icon{
+    padding-right: 10px;
+    width: 25px;
+
+}
+
+.line{
+    float: left;
+    color: rgb(163, 163, 163);
+    width: 100%;
+}
+.contTimeServing{
+    display: flex;
+}
+
+/*  Filtro */
+.titleFilter{
+    font-family: 'Segoe UI';
+    font-size: 27px;
+    padding-left: 5%;
+    padding-top:2px;
+}
+.contFilter{
+    float: right;
+    width: 20%;
+    background-color: #ffffff;
+    margin-right: 6%;
+    padding-bottom: 30px;
+    border-radius: .2rem;
+
+}
+
+.filterBox{
+    height: 35px;
+    width: 75%;
+    margin-left: 8%;
+    border-radius: .4em;
+}
+.lineFilter{
+ width: 94%;
+ height: 2px;
+ background-color: black;
+}
+.labelFilter{
+margin-left: 9%;
+font-size: 18px;
+}
+.filterButton{
+    margin-left: 28%;
+    background-color: #c55100;
+    border: 1px solid black ;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    margin-top: 30px;
+    border:0.1em solid #FFFFFF; 
+    border-radius:0.3em; 
+    box-sizing: border-box; 
+    text-decoration:none; 
+    font-family:'Roboto',sans-serif; 
+    color: white;
+    font-weight:300; 
+    text-align:center; 
+    transition: all 0.2s;
+    width: 45%;
+    height: 40px;
+}
